@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.actionIcons{
+    background-color: #006699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.close{
+    display: none;
+    cursor: pointer;
+    color: white;
+}
+
+.browse{
+    display: block;
+    cursor: pointer;
+}
+
+#navigationBar{
+    display: none;
+    background-color:#006699;
+    height: 80px;
+    width: 100%;
+}
+nav{
+    margin-left: 100px;
+    z-index: 1;
+    float: left;
+}
+nav ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 40px;
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+}

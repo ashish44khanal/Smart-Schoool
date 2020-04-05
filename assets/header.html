@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid" style="display: flex;">
+        <div class="actionIcons">
+            <span class="browse" id="show" onclick="showFunction()"><i class="fa fa-bars"></i></span>
+            <span class="close" id="hide" onclick="hideFunction()"><i class="fa fa-window-close"></i></span>
+
+        </div>
+
+        <div id="navigationBar">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="SchoolManagement.php"><li>School Management Software</li></a>
+                    <a href="e-learning.php"><li>E-Learning App</li></a>
+                    <a href="e-class.php"><li>E-Class</li></a>
+                    <a href="#"><li>Smart Equipments</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+         var z=document.getElementById("show");
+           var y=document.getElementById("hide");
+            var x = document.getElementById("navigationBar");
+       function showFunction() {
+          
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display="block";
+                    z.style.display="none";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            function hideFunction(){
+                if(x.style.display==="block"){
+                    x.style.display="none";
+                    y.style.display="none";
+                    z.style.display="block"
+                }
+                
+            }
+
+    </script>
+</body>
+</html>
