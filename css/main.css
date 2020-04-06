@@ -13,7 +13,7 @@ body{
     margin-top: 80px;
 }
 img{
-    margin-top: 140px;
+    margin-top: 90px;
 }
 p{
     color: white;
@@ -45,8 +45,154 @@ a:hover img{
     transform: translateY(-10px);
     width: 136px;
     transition-duration: 300ms;
-
 }
 
-    
+@media screen and (max-width:420px){
+  .header h2{
+      font-size: 20px;
+    }
 
+  .img1{
+      width: 70px;
+      margin-left: 60px;
+      float: left;
+  }
+  .img2{
+      width: 70px;
+      margin-left: 50px;
+      float: left;
+  }
+  .img3{
+      width: 70px;
+      margin-left: 50px;
+      float: left;
+  }
+  .img4{
+      width: 70px;
+      margin-left: 50px;
+      float: left;
+  }
+  a:hover img{
+      transform: translateY(-10px);
+      width: 80px;
+      transition-duration: 300ms;
+  }
+  p{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .img1{
+      width: 120px;
+      margin-left: 50px;
+  }
+  .img2{
+      width: 120px;
+      margin-left: 45px;
+  }
+  .img3{
+      width: 120px;
+      margin-left: 45px;
+  }
+  .img4{
+      width: 120px;
+      margin-left: 44px;
+  }
+}
+
+@media screen and (max-width:995px){
+  .img1{
+      width: 100px;
+      margin-left: 50px;
+  }
+  .img2{
+      width: 100px;
+      margin-left: 45px;
+  }
+  .img3{
+      width: 100px;
+      margin-left: 45px;
+  }
+  .img4{
+      width: 100px;
+      margin-left: 45px;
+  }
+
+  p {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  a:hover img{
+      transform: translateY(-10px);
+      width: 110px;
+      transition-duration: 300ms;
+  }
+}
+
+@media screen and (max-width:770px){
+  img{
+    margin-top: 60px;
+  }
+  .img1{
+      width: 90px;
+      margin-left: 84px;
+  }
+  .img2{
+      width: 90px;
+      margin-left: 84px;
+  }
+  .img3{
+      width: 90px;
+      margin-left: 88px;
+  }
+  .img4{
+      width: 90px;
+      margin-left: 84px;
+  }
+  a:hover img{
+      transform: translateY(-10px);
+      width: 100px;
+      transition-duration: 300ms;
+  }
+}
+
+@media screen and (max-width:575px){
+  .container{
+    margin-left: 30px;
+  }
+  .img1{
+      width: 80px;
+      margin-left: 75px;
+      float: left;
+  }
+  .img2{
+      width: 80px;
+      margin-left: 67px;
+      float: left;
+  }
+  .img3{
+      width: 80px;
+      margin-left: 66px;
+      float: left;
+  }
+  .img4{
+      width: 80px;
+      margin-left: 64px;
+      float: left;
+  }
+  a:hover img{
+      transform: translateY(-10px);
+      width: 90px;
+      transition-duration: 300ms;
+  }
+  p{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 180px;
+  }
+}
